@@ -1,67 +1,41 @@
-# My React Native App
+# Bill Splitter App
 
-## Overview
-This project is a React Native application designed to manage group expenses. It provides features for adding expenses, viewing group details, and settling expenses among members.
+A simple and user-friendly **React Native** app to split bills among friends or groups, calculate each person's share, and track who owes whom. Built with **Expo** and **React Native Paper** for smooth UI and cross-platform compatibility.
 
-## Project Structure
-```
-my-react-native-app
-├── src
-│   ├── assets
-│   │   └── fonts
-│   ├── components
-│   │   ├── AppButton.js
-│   │   ├── AppHeader.js
-│   │   ├── InputField.js
-│   │   └── GroupCard.js
-│   ├── context
-│   │   └── AppContext.js
-│   ├── hooks
-│   │   └── useLocalStorage.js
-│   ├── navigation
-│   │   └── AppNavigator.js
-│   ├── screens
-│   │   ├── HomeScreen.js
-│   │   ├── GroupDetailsScreen.js
-│   │   ├── AddExpenseScreen.js
-│   │   └── SettlementScreen.js
-│   ├── storage
-│   │   └── storage.js
-│   └── utils
-│       └── calculations.js
-├── App.js
-├── package.json
-└── README.md
-```
+## 🚀 Features
 
-## Features
-- **Home Screen**: Overview of group expenses and quick access to other features.
-- **Group Details**: View detailed information about a specific group.
-- **Add Expense**: Form to input new expenses.
-- **Settlement**: Information on settling expenses among group members.
+* Add expenses with payer and participants
+* Calculate equal shares automatically
+* Show settlement details
+* Cross-platform (Android & iOS) with Expo
 
-## Installation
+## 🛠 Tech Stack
+
+* **React Native** (with Expo)
+* **React Navigation**
+* **React Native Paper**
+
+## 📦 Installation
+
 1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/bill-splitter-app.git
+   cd bill-splitter-app
    ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd my-react-native-app
-   ```
-3. Install dependencies:
-   ```
+2. Install dependencies:
+
+   ```bash
    npm install
    ```
+3. Start the development server:
 
-## Usage
-To run the application, use the following command:
-```
-npm start
-```
+   ```bash
+   npx expo start
+   ```
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+## 📱 Usage
 
-## License
-This project is licensed under the MIT License.
+* Launch the app on your device or emulator
+* Add expenses, select who paid, and choose participants
+* View the final settlement details
